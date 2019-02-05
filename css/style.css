@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
 .contents-inner {
   max-width: 1200px;
   margin: 0 auto;
@@ -29,12 +32,19 @@
 .fa-3x {
   font-size: 3em;
 }
-.header-inner {
+.header {
   position: relative;
+  box-sizing: border-box;
+}
+.header-inner {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  padding: 15px 0;
 }
 .header-icon {
   float: left;
-  margin: 15px 0;
   color: #4e4e4e;
 }
 .button-right {
@@ -45,12 +55,10 @@
   font-size: 16px;
   padding: 14px 12px;
   border: none;
-  position: fixed;
-  z-index: 99;
 }
 .bolt-theme {
   background-color: #f2f2f2;
-  padding: 250px 0;
+  padding: 311px 0 250px 0;
   box-sizing: border-box;
 }
 .bolt-theme-text {
@@ -72,16 +80,21 @@
   float: left;
 }
 .iphone-side-text {
-  float: none;
+  float: right;
   text-align: center;
+  width: 900px;
 }
 .what-we-can-text {
   font-size: 24px;
   margin-bottom: 35px;
 }
+.our-latest-work {
+  background-color: #f2f2f2;
+  padding: 60px 0 70px 0;
+}
 .our-wrap {
-  padding: 60px 0 40px 0;
   text-align: center;
+  margin-bottom: 40px;
 }
 .our-text {
   font-size: 24px;
@@ -99,28 +112,25 @@
   float:left;
   box-sizing: border-box;
   opacity: 0.7;
+  transition: all 0.3s;
 }
 .img:hover {
-  transition: 0.3s;
   opacity: 1;
   cursor: pointer;
 }
-.img:first-child {
+.img:nth-child(3n+1) {
   margin-left: 0px;
 }
 .under-img {
   margin-top: 80px;
   margin-bottom: 90px;
 }
-.margin-left {
-  margin-left: 0px;
-}
 .lorem-wrap {
-  margin: 0 0 70px 0;
   text-align: center;
 }
 .lorem {
   float: left;
+  margin-left: 150px;
 }
 .email-me {
   float: left;
@@ -128,9 +138,10 @@
   padding: 14px 20px;
   background-color: #74cfae;
   border: none;
+  box-sizing: border-box;
+  transition: all 0.3s;
 }
 .email-me:hover {
-  transition: 0.3s;
   color: #333;
   cursor: pointer;
 }
@@ -142,6 +153,9 @@
 .our-skills {
   font-size: 24px;
   margin-bottom: 70px;
+}
+.circle-wrap {
+  margin-left: 85px;
 }
 .circle {
   float: left;
@@ -158,15 +172,18 @@
   background-color: #f2f2f2;
   padding: 200px 0;
   box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
 }
 .sns-icons {
-  margin: 0 auto;
+  margin-left: 230px;
 }
 .icon {
   width: 185px;
   float: left;
   color: #74cfae;
   padding: 30px 0;
+  transition: all 0.3s;
 }
 .icon:hover {
   background-color: #fff;
