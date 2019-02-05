@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+.contents-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.lorem-text {
+  font-size: 20px;
+  text-align: center;
+}
+.text-white {
+  color: #fff;
+}
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.header-inner {
+  position: relative;
+}
+.header-icon {
+  float: left;
+  margin: 15px 0;
+  color: #4e4e4e;
+}
+.button-right {
+  float: right;
+}
+.header-button {
+  background-color: #74cfae;
+  font-size: 16px;
+  padding: 14px 12px;
+  border: none;
+  position: fixed;
+  z-index: 99;
+}
+.bolt-theme {
+  background-color: #f2f2f2;
+  padding: 250px 0;
+  box-sizing: border-box;
+}
+.bolt-theme-text {
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+}
+.free-text {
+  font-size: 30px;
+  color: #c0c0c0;
+  margin-top: 20px;
+}
+.what-we-can {
+  background-color: #74cfae;
+  box-sizing: border-box;
+  padding: 50px 0 0 0;
+}
+.iphone {
+  float: left;
+}
+.iphone-side-text {
+  float: none;
+  text-align: center;
+}
+.what-we-can-text {
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+.our-wrap {
+  padding: 60px 0 40px 0;
+  text-align: center;
+}
+.our-text {
+  font-size: 24px;
+}
+.img-wrap-inner {
+  font-size: 0;
+  display: inline-block;
+  width: 1100px;
+}
+.img-wrap {
+  text-align: center;
+}
+.img {
+  margin-left: 100px;
+  float:left;
+  box-sizing: border-box;
+  opacity: 0.7;
+}
+.img:hover {
+  transition: 0.3s;
+  opacity: 1;
+  cursor: pointer;
+}
+.img:first-child {
+  margin-left: 0px;
+}
+.under-img {
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+.margin-left {
+  margin-left: 0px;
+}
+.lorem-wrap {
+  margin: 0 0 70px 0;
+  text-align: center;
+}
+.lorem {
+  float: left;
+}
+.email-me {
+  float: left;
+  margin-left: 90px;
+  padding: 14px 20px;
+  background-color: #74cfae;
+  border: none;
+}
+.email-me:hover {
+  transition: 0.3s;
+  color: #333;
+  cursor: pointer;
+}
+.our {
+  background-color: #4e4e4e;
+  box-sizing: border-box;
+  padding: 70px 0 100px 0;
+}
+.our-skills {
+  font-size: 24px;
+  margin-bottom: 70px;
+}
+.circle {
+  float: left;
+  margin-left: 180px;
+}
+.circle:first-child {
+  margin-left: 0px;
+}
+.circle-text {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.sns {
+  background-color: #f2f2f2;
+  padding: 200px 0;
+  box-sizing: border-box;
+}
+.sns-icons {
+  margin: 0 auto;
+}
+.icon {
+  width: 185px;
+  float: left;
+  color: #74cfae;
+  padding: 30px 0;
+}
+.icon:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+.crafted {
+  background-color: #74cfae;
+  padding: 20px 0 25px 0;
+}
+.footer-text {
+  float: right;
+}
