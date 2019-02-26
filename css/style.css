@@ -1,7 +1,13 @@
 @charset "UTF-8";
 
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+a {
+font-family: 'Raleway', sans-serif;
+}
+
 
 .contents-inner {
   max-width: 1200px;
@@ -20,18 +26,6 @@
 .text-white {
   color: #fff;
 }
-.fa {
-  display: inline-block;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.fa-3x {
-  font-size: 3em;
-}
 .header {
   position: relative;
   box-sizing: border-box;
@@ -49,12 +43,19 @@
 }
 .button-right {
   float: right;
+  padding-top: 10px;
 }
 .header-button {
   background-color: #74cfae;
-  font-size: 16px;
+  font-size: 12px;
   padding: 14px 12px;
   border: none;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+.header-button:hover {
+  color: #333;
+  cursor: pointer;
 }
 .bolt-theme {
   background-color: #f2f2f2;
@@ -78,11 +79,13 @@
 }
 .iphone {
   float: left;
+  margin-left: 150px;
+  vertical-align: bottom;
 }
 .iphone-side-text {
   float: right;
   text-align: center;
-  width: 900px;
+  width: 650px;
 }
 .what-we-can-text {
   font-size: 24px;
@@ -121,7 +124,7 @@
 .img:nth-child(3n+1) {
   margin-left: 0px;
 }
-.under-img {
+.img:nth-child(n+4) {
   margin-top: 80px;
   margin-bottom: 90px;
 }
