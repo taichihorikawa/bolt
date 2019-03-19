@@ -6,8 +6,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 a {
-  font-family: 'Raleway', sans-serif;
   display: inline-block;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -209,7 +212,7 @@ a {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .contents-inner {
-    max-width: 90%;
+    width: 97%;
     margin: 0 auto;
     text-align: center;
   }
@@ -255,12 +258,18 @@ a {
   .circle:first-child {
     margin-top: 0px;
   }
+  .sns-icons {
+    display: block;
+  }
+  .icon {
+    width: 25%;
+  }
 }
 
 
 @media screen and (max-width:767px) {
   .contents-inner {
-    max-width: 90%;
+    width: 97%;
     margin: 0 auto;
     text-align: center;
   }
